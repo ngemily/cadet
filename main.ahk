@@ -27,5 +27,6 @@ AppsKey::
 
 #If
 
-; Note the `*`! It allows you to press ScrollLock even if a modifier is stuck.
-*ScrollLock::dual.reset()
+; Note the `*`! It allows you to press a key even if a modifier is stuck.
+; Reset keyboard modifier state
+*PrintScreen::dual.reset()
