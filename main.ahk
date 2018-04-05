@@ -4,7 +4,7 @@ SendMode Input
 #SingleInstance force
 
 #Include <dual/dual>
-dual := new Dual({delay: 40, timeout: -1, doublePress: 200})
+dual := new Dual({delay: 40, timeout: 300, doublePress: 200})
 
 #Include <dual/defaults>
 
