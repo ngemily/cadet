@@ -16,12 +16,12 @@ Design philosophy
 2. Maximize use of keys near home position
 
     Caps-lock is very easy to press, but not very useful.  Control is very hard to
-    press, but very useful.
+    press, but very useful.  I've put Control on either side of the home row.
 
     These keys should be dual use keys, combining a "held down" and a "tapped"
     function.
 
-    Modifiers:
+    Modifiers (held down):
     - ctrl
     - alt
     - shift
@@ -29,6 +29,7 @@ Design philosophy
     Tapped special keys:
     - escape
     - backspace
+    - enter
 
 3. Maximize portability
 
