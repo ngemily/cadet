@@ -25,8 +25,8 @@ AppsKey::
 	KeyWait AppsKey  ; Prevents keyboard auto-repeat from repeating the mouse click.
 	SendEvent {Blind}{RButton up}
 
-#If
-
 ; Note the `*`! It allows you to press a key even if a modifier is stuck.
 ; Reset keyboard modifier state
-*PrintScreen::dual.reset()
+*Delete::dual.reset()
+
+#If
