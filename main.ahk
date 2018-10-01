@@ -11,6 +11,8 @@ dual := new Dual({delay: 40, timeout: 300, doublePress: 200})
 #If true ; Override defaults.ahk. There will be "duplicate hotkey" errors otherwise.
 
 ; Left-ctrl on caps lock, dual with Escape
+*LCtrl::
+*LCtrl UP::dual.combine("LCtrl", "Escape")
 *CapsLock::
 *CapsLock UP::dual.combine("LCtrl", "Escape")
 
